@@ -18,13 +18,27 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Si()
 
         }
     }
 }
+//Primera actividad
 @Preview(showSystemUi = true)
 @Composable
-fun Si(){
+fun PrimeraActividad (){
+    Text("Hola mundo")
+}
+
+// Segunda actividad
+@Preview(showSystemUi = true)
+@Composable
+fun SegundaActividad (){
+    Text("Hola mundo")
+}
+
+// Tercera actividad
+@Preview(showSystemUi = true)
+@Composable
+fun TerceraActividad (){
     Text("Hola mundo")
 }
